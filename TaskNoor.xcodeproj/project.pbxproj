@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D68FA47721C0FEEA0033349D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA47621C0FEEA0033349D /* AppDelegate.swift */; };
+		D68FA47921C0FEEA0033349D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA47821C0FEEA0033349D /* ViewController.swift */; };
+		D68FA47C21C0FEEA0033349D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68FA47A21C0FEEA0033349D /* Main.storyboard */; };
+		D68FA47F21C0FEEA0033349D /* TaskNoor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D68FA47D21C0FEEA0033349D /* TaskNoor.xcdatamodeld */; };
+		D68FA48121C0FEF60033349D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68FA48021C0FEF60033349D /* Assets.xcassets */; };
+		D68FA48421C0FEF60033349D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68FA48221C0FEF60033349D /* LaunchScreen.storyboard */; };
+		D68FA48F21C0FEF70033349D /* TaskNoorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA48E21C0FEF70033349D /* TaskNoorTests.swift */; };
+		D68FA49A21C0FEF70033349D /* TaskNoorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA49921C0FEF70033349D /* TaskNoorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D68FA48B21C0FEF70033349D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D68FA46B21C0FEEA0033349D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68FA47221C0FEEA0033349D;
+			remoteInfo = TaskNoor;
+		};
+		D68FA49621C0FEF70033349D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D68FA46B21C0FEEA0033349D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68FA47221C0FEEA0033349D;
+			remoteInfo = TaskNoor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D68FA47321C0FEEA0033349D /* TaskNoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskNoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68FA47621C0FEEA0033349D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D68FA47821C0FEEA0033349D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D68FA47B21C0FEEA0033349D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D68FA47E21C0FEEA0033349D /* TaskNoor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskNoor.xcdatamodel; sourceTree = "<group>"; };
+		D68FA48021C0FEF60033349D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D68FA48321C0FEF60033349D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D68FA48521C0FEF60033349D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68FA48A21C0FEF70033349D /* TaskNoorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskNoorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68FA48E21C0FEF70033349D /* TaskNoorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskNoorTests.swift; sourceTree = "<group>"; };
+		D68FA49021C0FEF70033349D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68FA49521C0FEF70033349D /* TaskNoorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskNoorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68FA49921C0FEF70033349D /* TaskNoorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskNoorUITests.swift; sourceTree = "<group>"; };
+		D68FA49B21C0FEF70033349D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D68FA47021C0FEEA0033349D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68FA48721C0FEF70033349D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68FA49221C0FEF70033349D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D68FA46A21C0FEEA0033349D = {
+			isa = PBXGroup;
+			children = (
+				D68FA47521C0FEEA0033349D /* TaskNoor */,
+				D68FA48D21C0FEF70033349D /* TaskNoorTests */,
+				D68FA49821C0FEF70033349D /* TaskNoorUITests */,
+				D68FA47421C0FEEA0033349D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D68FA47421C0FEEA0033349D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D68FA47321C0FEEA0033349D /* TaskNoor.app */,
+				D68FA48A21C0FEF70033349D /* TaskNoorTests.xctest */,
+				D68FA49521C0FEF70033349D /* TaskNoorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D68FA47521C0FEEA0033349D /* TaskNoor */ = {
+			isa = PBXGroup;
+			children = (
+				D68FA47621C0FEEA0033349D /* AppDelegate.swift */,
+				D68FA47821C0FEEA0033349D /* ViewController.swift */,
+				D68FA47A21C0FEEA0033349D /* Main.storyboard */,
+				D68FA48021C0FEF60033349D /* Assets.xcassets */,
+				D68FA48221C0FEF60033349D /* LaunchScreen.storyboard */,
+				D68FA48521C0FEF60033349D /* Info.plist */,
+				D68FA47D21C0FEEA0033349D /* TaskNoor.xcdatamodeld */,
+			);
+			path = TaskNoor;
+			sourceTree = "<group>";
+		};
+		D68FA48D21C0FEF70033349D /* TaskNoorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D68FA48E21C0FEF70033349D /* TaskNoorTests.swift */,
+				D68FA49021C0FEF70033349D /* Info.plist */,
+			);
+			path = TaskNoorTests;
+			sourceTree = "<group>";
+		};
+		D68FA49821C0FEF70033349D /* TaskNoorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D68FA49921C0FEF70033349D /* TaskNoorUITests.swift */,
+				D68FA49B21C0FEF70033349D /* Info.plist */,
+			);
+			path = TaskNoorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D68FA47221C0FEEA0033349D /* TaskNoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68FA49E21C0FEF70033349D /* Build configuration list for PBXNativeTarget "TaskNoor" */;
+			buildPhases = (
+				D68FA46F21C0FEEA0033349D /* Sources */,
+				D68FA47021C0FEEA0033349D /* Frameworks */,
+				D68FA47121C0FEEA0033349D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskNoor;
+			productName = TaskNoor;
+			productReference = D68FA47321C0FEEA0033349D /* TaskNoor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D68FA48921C0FEF70033349D /* TaskNoorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68FA4A121C0FEF70033349D /* Build configuration list for PBXNativeTarget "TaskNoorTests" */;
+			buildPhases = (
+				D68FA48621C0FEF70033349D /* Sources */,
+				D68FA48721C0FEF70033349D /* Frameworks */,
+				D68FA48821C0FEF70033349D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D68FA48C21C0FEF70033349D /* PBXTargetDependency */,
+			);
+			name = TaskNoorTests;
+			productName = TaskNoorTests;
+			productReference = D68FA48A21C0FEF70033349D /* TaskNoorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D68FA49421C0FEF70033349D /* TaskNoorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68FA4A421C0FEF70033349D /* Build configuration list for PBXNativeTarget "TaskNoorUITests" */;
+			buildPhases = (
+				D68FA49121C0FEF70033349D /* Sources */,
+				D68FA49221C0FEF70033349D /* Frameworks */,
+				D68FA49321C0FEF70033349D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D68FA49721C0FEF70033349D /* PBXTargetDependency */,
+			);
+			name = TaskNoorUITests;
+			productName = TaskNoorUITests;
+			productReference = D68FA49521C0FEF70033349D /* TaskNoorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D68FA46B21C0FEEA0033349D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "LetMeCall Corp";
+				TargetAttributes = {
+					D68FA47221C0FEEA0033349D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D68FA48921C0FEF70033349D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D68FA47221C0FEEA0033349D;
+					};
+					D68FA49421C0FEF70033349D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D68FA47221C0FEEA0033349D;
+					};
+				};
+			};
+			buildConfigurationList = D68FA46E21C0FEEA0033349D /* Build configuration list for PBXProject "TaskNoor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D68FA46A21C0FEEA0033349D;
+			productRefGroup = D68FA47421C0FEEA0033349D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D68FA47221C0FEEA0033349D /* TaskNoor */,
+				D68FA48921C0FEF70033349D /* TaskNoorTests */,
+				D68FA49421C0FEF70033349D /* TaskNoorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D68FA47121C0FEEA0033349D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68FA48421C0FEF60033349D /* LaunchScreen.storyboard in Resources */,
+				D68FA48121C0FEF60033349D /* Assets.xcassets in Resources */,
+				D68FA47C21C0FEEA0033349D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68FA48821C0FEF70033349D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68FA49321C0FEF70033349D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D68FA46F21C0FEEA0033349D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68FA47921C0FEEA0033349D /* ViewController.swift in Sources */,
+				D68FA47721C0FEEA0033349D /* AppDelegate.swift in Sources */,
+				D68FA47F21C0FEEA0033349D /* TaskNoor.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68FA48621C0FEF70033349D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68FA48F21C0FEF70033349D /* TaskNoorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68FA49121C0FEF70033349D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68FA49A21C0FEF70033349D /* TaskNoorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D68FA48C21C0FEF70033349D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D68FA47221C0FEEA0033349D /* TaskNoor */;
+			targetProxy = D68FA48B21C0FEF70033349D /* PBXContainerItemProxy */;
+		};
+		D68FA49721C0FEF70033349D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D68FA47221C0FEEA0033349D /* TaskNoor */;
+			targetProxy = D68FA49621C0FEF70033349D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D68FA47A21C0FEEA0033349D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D68FA47B21C0FEEA0033349D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D68FA48221C0FEF60033349D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D68FA48321C0FEF60033349D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D68FA49C21C0FEF70033349D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D68FA49D21C0FEF70033349D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D68FA49F21C0FEF70033349D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaskNoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LetMeCall.TaskNoor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D68FA4A021C0FEF70033349D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaskNoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LetMeCall.TaskNoor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D68FA4A221C0FEF70033349D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaskNoorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LetMeCall.TaskNoorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskNoor.app/TaskNoor";
+			};
+			name = Debug;
+		};
+		D68FA4A321C0FEF70033349D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaskNoorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LetMeCall.TaskNoorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskNoor.app/TaskNoor";
+			};
+			name = Release;
+		};
+		D68FA4A521C0FEF70033349D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaskNoorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LetMeCall.TaskNoorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskNoor;
+			};
+			name = Debug;
+		};
+		D68FA4A621C0FEF70033349D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaskNoorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LetMeCall.TaskNoorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskNoor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D68FA46E21C0FEEA0033349D /* Build configuration list for PBXProject "TaskNoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68FA49C21C0FEF70033349D /* Debug */,
+				D68FA49D21C0FEF70033349D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68FA49E21C0FEF70033349D /* Build configuration list for PBXNativeTarget "TaskNoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68FA49F21C0FEF70033349D /* Debug */,
+				D68FA4A021C0FEF70033349D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68FA4A121C0FEF70033349D /* Build configuration list for PBXNativeTarget "TaskNoorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68FA4A221C0FEF70033349D /* Debug */,
+				D68FA4A321C0FEF70033349D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68FA4A421C0FEF70033349D /* Build configuration list for PBXNativeTarget "TaskNoorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68FA4A521C0FEF70033349D /* Debug */,
+				D68FA4A621C0FEF70033349D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D68FA47D21C0FEEA0033349D /* TaskNoor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D68FA47E21C0FEEA0033349D /* TaskNoor.xcdatamodel */,
+			);
+			currentVersion = D68FA47E21C0FEEA0033349D /* TaskNoor.xcdatamodel */;
+			path = TaskNoor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D68FA46B21C0FEEA0033349D /* Project object */;
+}
