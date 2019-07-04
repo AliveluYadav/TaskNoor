@@ -9,8 +9,13 @@
 import UIKit
 import CoreData
 
+var appDel = UIApplication.shared.delegate as! AppDelegate
+var conte = appDel.persistentContainer.viewContext
+var SaveVegData = [Vegtables]()
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+
 
     var window: UIWindow?
 

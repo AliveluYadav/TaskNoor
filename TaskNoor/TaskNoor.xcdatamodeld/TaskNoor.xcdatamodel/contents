@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18B75" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Flowers" representedClassName="Flowers" syncable="YES" codeGenerationType="class">
+        <attribute name="flowersItems" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Fruits" syncable="YES"/>
+    </entity>
+    <entity name="Fruits" representedClassName="Fruits" syncable="YES" codeGenerationType="class">
+        <attribute name="fruitsItems" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Vegtables" representedClassName="Vegtables" syncable="YES" codeGenerationType="class">
+        <attribute name="vegItems" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Vegtables" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="Fruits" positionX="-54" positionY="-9" width="128" height="60"/>
+        <element name="Flowers" positionX="-36" positionY="9" width="128" height="75"/>
+    </elements>
 </model>

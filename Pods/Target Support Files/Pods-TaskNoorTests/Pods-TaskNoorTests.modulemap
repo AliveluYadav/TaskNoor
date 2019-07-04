@@ -1,0 +1,6 @@
+framework module Pods_TaskNoorTests {
+  umbrella header "Pods-TaskNoorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
